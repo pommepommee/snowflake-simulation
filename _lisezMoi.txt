@@ -1,0 +1,13 @@
+Project : Tomb Raider Snowflakes Edition
+Author : GIGOUT Thomas & DAUNIQUE Wilfried
+
+1 - Éxecuter "make".
+    Suite à ça, deux éxecutables sont créés : ./simulation et ./editeur.
+    
+    ./simulation -N "nomFichier.bin" permet d'initialiser une nouvelle simulation a partir du décor présent dans nomFichier.bin. La simulation sera sauvegardée dans nomFichier.sim.
+    ./simulation -S "nomFichier.sim" permet de reprendre une simulation là où elle s'est arrêtée.
+    ./editeur "nomFichier" permet d'ouvrir et d'éditer un fichier existant.
+    ./editeur "nomFichier" "nomDecor" permet de créer un fichier decor si aucun autre fichier n'a le même nom de fichier. 
+
+2 - Lorsque vous êtes en mode édition, cliquez dans la fenêtre simulation pour ajouter/enlever des obstacles. Pressez F2 pour quitter.
+3 - Lorsque vous êtes en mode simulation, pressez F2 lorsque vous voulez terminer. Selon l'énoncé de TP, le programme tourne tant que vous n'avez pas pressé F2.
